@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDB413B1299518920097F4BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB413B0299518920097F4BD /* AppDelegate.swift */; };
+		EDB413B3299518920097F4BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB413B2299518920097F4BD /* SceneDelegate.swift */; };
+		EDB413B5299518920097F4BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB413B4299518920097F4BD /* ViewController.swift */; };
+		EDB413B8299518920097F4BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB413B6299518920097F4BD /* Main.storyboard */; };
+		EDB413BA2995189C0097F4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB413B92995189C0097F4BD /* Assets.xcassets */; };
+		EDB413BD2995189C0097F4BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB413BB2995189C0097F4BD /* LaunchScreen.storyboard */; };
+		EDB413C82995189D0097F4BD /* MindteckTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB413C72995189D0097F4BD /* MindteckTaskTests.swift */; };
+		EDB413D22995189D0097F4BD /* MindteckTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB413D12995189D0097F4BD /* MindteckTaskUITests.swift */; };
+		EDB413D42995189D0097F4BD /* MindteckTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB413D32995189D0097F4BD /* MindteckTaskUITestsLaunchTests.swift */; };
+		EDB413E1299565090097F4BD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB413E0299565090097F4BD /* TableViewCell.swift */; };
+		EDB413E3299565200097F4BD /* CollectionVWCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB413E2299565200097F4BD /* CollectionVWCell.swift */; };
+		EDB413E5299570630097F4BD /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB413E4299570630097F4BD /* JsonModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDB413C42995189D0097F4BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB413A5299518910097F4BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB413AC299518920097F4BD;
+			remoteInfo = MindteckTask;
+		};
+		EDB413CE2995189D0097F4BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB413A5299518910097F4BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB413AC299518920097F4BD;
+			remoteInfo = MindteckTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDB413AD299518920097F4BD /* MindteckTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindteckTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB413B0299518920097F4BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDB413B2299518920097F4BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDB413B4299518920097F4BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDB413B7299518920097F4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDB413B92995189C0097F4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDB413BC2995189C0097F4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDB413BE2995189C0097F4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB413C32995189D0097F4BD /* MindteckTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindteckTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB413C72995189D0097F4BD /* MindteckTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindteckTaskTests.swift; sourceTree = "<group>"; };
+		EDB413CD2995189D0097F4BD /* MindteckTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindteckTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB413D12995189D0097F4BD /* MindteckTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindteckTaskUITests.swift; sourceTree = "<group>"; };
+		EDB413D32995189D0097F4BD /* MindteckTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindteckTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDB413E0299565090097F4BD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EDB413E2299565200097F4BD /* CollectionVWCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVWCell.swift; sourceTree = "<group>"; };
+		EDB413E4299570630097F4BD /* JsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB413AA299518920097F4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB413C02995189D0097F4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB413CA2995189D0097F4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED554998299602D000AF73CE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EDB413E0299565090097F4BD /* TableViewCell.swift */,
+				EDB413E2299565200097F4BD /* CollectionVWCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ED554999299602E900AF73CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDB413E4299570630097F4BD /* JsonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDB413A4299518910097F4BD = {
+			isa = PBXGroup;
+			children = (
+				EDB413AF299518920097F4BD /* MindteckTask */,
+				EDB413C62995189D0097F4BD /* MindteckTaskTests */,
+				EDB413D02995189D0097F4BD /* MindteckTaskUITests */,
+				EDB413AE299518920097F4BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB413AE299518920097F4BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB413AD299518920097F4BD /* MindteckTask.app */,
+				EDB413C32995189D0097F4BD /* MindteckTaskTests.xctest */,
+				EDB413CD2995189D0097F4BD /* MindteckTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB413AF299518920097F4BD /* MindteckTask */ = {
+			isa = PBXGroup;
+			children = (
+				EDB413B0299518920097F4BD /* AppDelegate.swift */,
+				EDB413B2299518920097F4BD /* SceneDelegate.swift */,
+				ED554999299602E900AF73CE /* Model */,
+				ED554998299602D000AF73CE /* Cells */,
+				EDB413B4299518920097F4BD /* ViewController.swift */,
+				EDB413B6299518920097F4BD /* Main.storyboard */,
+				EDB413B92995189C0097F4BD /* Assets.xcassets */,
+				EDB413BB2995189C0097F4BD /* LaunchScreen.storyboard */,
+				EDB413BE2995189C0097F4BD /* Info.plist */,
+			);
+			path = MindteckTask;
+			sourceTree = "<group>";
+		};
+		EDB413C62995189D0097F4BD /* MindteckTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB413C72995189D0097F4BD /* MindteckTaskTests.swift */,
+			);
+			path = MindteckTaskTests;
+			sourceTree = "<group>";
+		};
+		EDB413D02995189D0097F4BD /* MindteckTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB413D12995189D0097F4BD /* MindteckTaskUITests.swift */,
+				EDB413D32995189D0097F4BD /* MindteckTaskUITestsLaunchTests.swift */,
+			);
+			path = MindteckTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB413AC299518920097F4BD /* MindteckTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB413D72995189D0097F4BD /* Build configuration list for PBXNativeTarget "MindteckTask" */;
+			buildPhases = (
+				EDB413A9299518920097F4BD /* Sources */,
+				EDB413AA299518920097F4BD /* Frameworks */,
+				EDB413AB299518920097F4BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindteckTask;
+			productName = MindteckTask;
+			productReference = EDB413AD299518920097F4BD /* MindteckTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDB413C22995189D0097F4BD /* MindteckTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB413DA2995189D0097F4BD /* Build configuration list for PBXNativeTarget "MindteckTaskTests" */;
+			buildPhases = (
+				EDB413BF2995189D0097F4BD /* Sources */,
+				EDB413C02995189D0097F4BD /* Frameworks */,
+				EDB413C12995189D0097F4BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB413C52995189D0097F4BD /* PBXTargetDependency */,
+			);
+			name = MindteckTaskTests;
+			productName = MindteckTaskTests;
+			productReference = EDB413C32995189D0097F4BD /* MindteckTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDB413CC2995189D0097F4BD /* MindteckTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB413DD2995189D0097F4BD /* Build configuration list for PBXNativeTarget "MindteckTaskUITests" */;
+			buildPhases = (
+				EDB413C92995189D0097F4BD /* Sources */,
+				EDB413CA2995189D0097F4BD /* Frameworks */,
+				EDB413CB2995189D0097F4BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB413CF2995189D0097F4BD /* PBXTargetDependency */,
+			);
+			name = MindteckTaskUITests;
+			productName = MindteckTaskUITests;
+			productReference = EDB413CD2995189D0097F4BD /* MindteckTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB413A5299518910097F4BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EDB413AC299518920097F4BD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EDB413C22995189D0097F4BD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EDB413AC299518920097F4BD;
+					};
+					EDB413CC2995189D0097F4BD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EDB413AC299518920097F4BD;
+					};
+				};
+			};
+			buildConfigurationList = EDB413A8299518910097F4BD /* Build configuration list for PBXProject "MindteckTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB413A4299518910097F4BD;
+			productRefGroup = EDB413AE299518920097F4BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB413AC299518920097F4BD /* MindteckTask */,
+				EDB413C22995189D0097F4BD /* MindteckTaskTests */,
+				EDB413CC2995189D0097F4BD /* MindteckTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB413AB299518920097F4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB413BD2995189C0097F4BD /* LaunchScreen.storyboard in Resources */,
+				EDB413BA2995189C0097F4BD /* Assets.xcassets in Resources */,
+				EDB413B8299518920097F4BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB413C12995189D0097F4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB413CB2995189D0097F4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB413A9299518920097F4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB413B5299518920097F4BD /* ViewController.swift in Sources */,
+				EDB413E1299565090097F4BD /* TableViewCell.swift in Sources */,
+				EDB413B1299518920097F4BD /* AppDelegate.swift in Sources */,
+				EDB413E5299570630097F4BD /* JsonModel.swift in Sources */,
+				EDB413B3299518920097F4BD /* SceneDelegate.swift in Sources */,
+				EDB413E3299565200097F4BD /* CollectionVWCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB413BF2995189D0097F4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB413C82995189D0097F4BD /* MindteckTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB413C92995189D0097F4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB413D42995189D0097F4BD /* MindteckTaskUITestsLaunchTests.swift in Sources */,
+				EDB413D22995189D0097F4BD /* MindteckTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDB413C52995189D0097F4BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB413AC299518920097F4BD /* MindteckTask */;
+			targetProxy = EDB413C42995189D0097F4BD /* PBXContainerItemProxy */;
+		};
+		EDB413CF2995189D0097F4BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB413AC299518920097F4BD /* MindteckTask */;
+			targetProxy = EDB413CE2995189D0097F4BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDB413B6299518920097F4BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB413B7299518920097F4BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB413BB2995189C0097F4BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB413BC2995189C0097F4BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB413D52995189D0097F4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDB413D62995189D0097F4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB413D82995189D0097F4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindteckTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MindteckTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDB413D92995189D0097F4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindteckTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MindteckTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDB413DB2995189D0097F4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MindteckTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindteckTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindteckTask";
+			};
+			name = Debug;
+		};
+		EDB413DC2995189D0097F4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MindteckTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindteckTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindteckTask";
+			};
+			name = Release;
+		};
+		EDB413DE2995189D0097F4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MindteckTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindteckTask;
+			};
+			name = Debug;
+		};
+		EDB413DF2995189D0097F4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MindteckTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindteckTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB413A8299518910097F4BD /* Build configuration list for PBXProject "MindteckTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB413D52995189D0097F4BD /* Debug */,
+				EDB413D62995189D0097F4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB413D72995189D0097F4BD /* Build configuration list for PBXNativeTarget "MindteckTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB413D82995189D0097F4BD /* Debug */,
+				EDB413D92995189D0097F4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB413DA2995189D0097F4BD /* Build configuration list for PBXNativeTarget "MindteckTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB413DB2995189D0097F4BD /* Debug */,
+				EDB413DC2995189D0097F4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB413DD2995189D0097F4BD /* Build configuration list for PBXNativeTarget "MindteckTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB413DE2995189D0097F4BD /* Debug */,
+				EDB413DF2995189D0097F4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB413A5299518910097F4BD /* Project object */;
+}
